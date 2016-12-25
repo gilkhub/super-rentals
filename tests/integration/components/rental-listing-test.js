@@ -24,3 +24,4 @@ test('should toggle wide class on click', function(assert) {
   this.$('.image').click();
   assert.equal(this.$('.image.wide').length, 0, 'rendered small after second click');
 });
+
